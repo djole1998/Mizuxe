@@ -1,0 +1,458 @@
+
+/*#2790A3 boja koja mi treba*/
+
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+    color: grey;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+h1 {
+    font-weight: 300;
+    color: black;
+    position: absolute;
+    left: 230px;
+    top: 25px;
+}
+/*--------- HEADER -----------*/
+#headerId {
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+
+}
+
+#headerId h1 {
+    margin-top: -10px;
+    position: absolute;
+    left: 230px;
+    top: 25px;
+    font-weight: 300;
+
+}
+#nav-bar {
+
+}
+
+#nav-main {
+    float: right;
+    margin-top: 30px;
+    padding-right: 200px;
+}
+
+#nav-main li {
+    display: inline-block;
+    margin-left: 40px;
+}
+#nav-main li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav-main li a:hover {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1.5px solid #2790A3;
+    padding-bottom: 3px;
+}
+.logo {
+    height: 65px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+/*------------- POCETAK YOU REAM DELA----------*/
+
+.you-dream {
+    background-image: linear-gradient(rgba(39,144,163,0.7),rgba(39,144,163,0.7)), url("image/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    position: relative;
+}
+.you-dream img {
+    height: 900px;
+    width: 650px;
+    float: right;
+    margin-right: 150px;
+}
+/* TEKST NA YOU DREAM DELU */
+
+
+.you-dream-text-box {
+    position: absolute;
+    width: 100%;
+}
+.you-dream-text-box h1 {
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 100px;
+}
+.you-dream-text-box p {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: -690px;
+}
+.you-dream-button {
+    width: 210px;
+    height: 65px;
+    position: absolute;
+    margin-left: 470px;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}
+.you-dream-button:hover{
+    background-color: #195062;
+}
+.you-dream-button i{
+    margin-left: -10px;
+    padding-right: 5px;
+}
+/*--------- FORMA ----------*/
+
+.forma {
+    width: 100%;
+    height: 110px;
+    background-color: #2A2A2A;
+    padding-left: 10%;
+}
+input[type=text],
+input[type=email],
+.form-button{
+    width: 450px;
+    height: 40px;
+    margin-top: 35px;
+    float: left;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.form-button{
+    background-color: #2790A3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+}
+.form-button:hover{
+    background-color: #195062;
+    border: 1px solid #2790A3;
+}
+
+
+/*-------- POCETAK BE SECTION ---------*/
+
+.be-div {
+    width: 100%;
+    height: auto;
+    margin: 0 15%;
+}
+.be-box {
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.be-box h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.be-box p {
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.blue {
+    background-color: #2790A3;
+    color: white;
+}
+.white {
+    background-color: white;
+    color: grey;
+    border: 1px solid #2790A3;
+}
+.white h2{
+    color: #2790A3;
+}
+/*--------- POCETAK WHY THIS BOOK  -----------*/
+
+.why-this-book-section {
+    background-color: #ebebeb;
+    width: 100%;
+    height: 600px;
+}
+.why-this-book-text-box {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #bcbcbc;
+}
+.little-header h2 {
+    color: #2790A3;
+    font-size: 50px;
+    padding-top: 60px;
+    letter-spacing: 1px;
+}
+.little-header p {
+    color: grey;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+
+/*--------- POCETAK WHY THIS BOOK BOX --------*/
+
+.why-this-book-section{
+    width: 100%;
+    height: 660px;
+    background-color: #f5f5f5;
+
+}
+.why-this-book-box {
+    width: 70%;
+    height: auto;
+    margin: 60px auto;
+}
+.why-this-box {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d0d0d0;
+    text-align: center;
+    font-size: 30px;
+    color: #313131;
+    background-color: #f5f5f5;
+}
+.why-this-box h2 {
+    margin: 0;
+}
+.get-inspired-text {
+    width: 100%;
+    height: 130px;
+    border: 1px solid #d0d0d0;
+    background-color: white;
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+}
+.fa-arrow-down {
+    margin-right: 10px;
+}
+/*---------- POCETAK MEET THE AUTHORS -----------*/
+
+.meet-the-authors {
+    width: 100%;
+    height: 770px;
+    background-color: white;
+
+}
+.meet-the-authors-text-box {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    border-bottom: 1px solid #bcbcbc;
+}
+/*---------------- AUTHORS ------------*/
+
+.all-authors {
+    width: 80%;
+    height: 500px;
+    float:left;
+    margin: 0 305px;
+}
+.author {
+    width: 280px;
+    height: 420px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+.author-text {
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+.author-text h2{
+    color: black;
+    font-weight: bold;
+}
+.author-text h4{
+    font-weight: bold;
+}
+.author-text p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: black;
+}
+.person {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: -30px;
+    left: 80px;
+}
+
+/*------------ ICONS ----------*/
+
+.author-icon {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 25px;
+
+}
+.fa-facebook{
+    padding: 20px;
+    color: #2790A3;
+}
+.fa-facebook:hover{
+    color:blue;
+}
+
+
+.fa-instagram{
+    padding: 20px;
+    color: #2790A3;
+}
+.fa-instagram:hover{
+    color: #fbad50;
+}
+
+
+.fa-twitter{
+    padding: 20px;
+    color: #2790A3;
+}
+.fa-twitter:hover{
+    color:#00aced;
+}
+/*--------- POCETAK GET IN TOUCH -----------*/
+
+.get-in-touch-section{
+    width: 100%;
+    height: 600px;
+    background-color: #ececec;
+}
+.get-in-touch-class {
+    padding-top: 50px;
+    margin-left: 320px;
+    float:left;
+}
+.get-in-touch-class h3 {
+    color: black;
+}
+.get-in-touch-class p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/*--------- GET IN TOUCH FORM ----------------*/
+
+#get-in-touch-name {
+    width: 50%;
+    float:left;
+    margin-left: 320px;
+}
+#get-in-touch-name:focus {
+    border: 2px solid #2790A3;
+}
+#get-in-touch-email {
+    width: 50%;
+    float:left;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+#get-in-touch-email:focus {
+    border: 2px solid #2790A3;
+}
+#get-in-touch-button {
+    width: 50%;
+    float:left;
+    margin-left:320px;
+    height: 50px;
+    text-align: center;
+    background-color: #2790A3;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border: none;
+    margin-top:40px;
+}
+#get-in-touch-button:hover {
+    background-color: #195062;
+    border: 2px solid #2790A3;
+}
+#get-in-touch-message {
+    width: 920px;
+    height: 200px;
+    float:left;
+    bottom:-20px;
+    left: 320px;
+    position: relative;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#get-in-touch-message:focus {
+    border: 3px solid #2790A3;
+}
+/*-------------- GET IN TOUCH LOGO ----------*/
+
+.get-in-touch-logo {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    right: -40px;
+    top: 200px;
+}
+/*---------- FOOTER -----------*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2790A3;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    font-size: 25px;
+}
